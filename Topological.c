@@ -17,11 +17,6 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-
-    // Make diagonal = 1 (reflexive closure)
-    for (i = 0; i < n; i++)
-        a[i][i] = 1;
-
     // Warshall’s algorithm
     for (k = 0; k < n; k++)
     {
