@@ -8,7 +8,7 @@ int linsearch(int a[], int n, int k);
 
 int main()
 {
-    int ch = 1, n, i, a[100], k, op, low, high, pos;
+    int ch = 1, n, i, a[10], k, op, low, high, pos;
     clock_t begin, end;
 
     while (ch)
