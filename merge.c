@@ -36,8 +36,7 @@ int main()
             printf("%d ", a[i]);
         printf("\n");
 
-        printf("Time taken: %lf seconds\n",
-               (double)(end - start) / CLOCKS_PER_SEC);
+        printf("Time taken: %lf seconds\n",(double)(end - start) / CLOCKS_PER_SEC);
 
         printf("Run again? (1=yes, 0=no): ");
         scanf("%d", &ch);
